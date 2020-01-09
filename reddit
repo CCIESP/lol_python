@@ -1,0 +1,18 @@
+#10/11/2016
+# presenting the /r/networking tilt cycle
+import random
+
+cert = ["CCNA", "JNCIA", "CCNP", "JNCIP", "CCIE", "JNCIE", "IT DEGREE",
+"On the job experience", "BCNE"]
+code = ["Python", "PERL", "Ruby", "C++", "PHP"]
+degree = ["Computer Science", "Math", "Physics"]
+fast_food = ["Burger King", "Arbys", "Popeyes", "Panda Express"]
+dash =  "-" * 75
+
+print dash
+print "Hey! your %s is worthless!" % random.choice(cert)
+print "You should stop studying and just go learn %s." % random.choice(code)
+print "Or you could just go to school for a degree in %s." % random.choice(degree)
+print "SDN is the future!"
+print "Just accept you will be working at %s soon, Router Jockey." % random.choice(fast_food)
+print dash
